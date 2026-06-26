@@ -1,0 +1,27 @@
+﻿
+============================================================
+============================================================
+  [42/50] How does RAGAS compute faithfulness?
+  [42/50] How does RAGAS compute faithfulness?
+Ket qua RAGAS â€” Prompt V1:
+  faithfulness                  : 0.9551 [STAR]
+  answer_relevancy              : 0.9152
+  context_recall                : 1.0000
+  context_precision             : 0.9450
+Ket qua RAGAS â€” Prompt V2:
+  faithfulness                  : 0.9176 [STAR]
+  answer_relevancy              : 0.8883
+  context_recall                : 1.0000
+  context_precision             : 0.9417
+=================================================================
+  Metric                                V1        V2  Winner
+=================================================================
+  faithfulness                      0.9551    0.9176  <- V1
+  answer_relevancy                  0.9152    0.8883  <- V1
+  context_recall                    1.0000    1.0000  <- V2
+  context_precision                 0.9450    0.9417  <- V1
+[OK] Dat muc tieu: faithfulness = 0.9551 >= 0.8
+[SAVED] Da luu bao cao vao 
+D:\AI_Vin\lab22\HoThanhTien_2A202600868_Day22-Track2-LLMops-Prompt-versioning\data\ragas_report.json
+
+
